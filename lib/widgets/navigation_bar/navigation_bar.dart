@@ -15,9 +15,16 @@ class NavigationBar extends StatelessWidget {
           Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              _NavBarItem("foo"),
-              _NavBarItem("foo"),
-              _NavBarItem("foo"),
+              _NavBarItem("작품"),
+              _NavBarItem("노블레스"),
+              _NavBarItem("프리미엄"),
+              _NavBarItem("로맨스"),
+              _NavBarItem("완결작품"),
+              _NavBarItem("반반무"),
+              _NavBarItem("베스트"),
+              _NavBarItem("커뮤니티"),
+              _NavBarItem("아이템샵"),
+              _NavBarItem("고객센터"),
             ],
           )
         ],
