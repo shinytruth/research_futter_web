@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:hello_web/widgets/centered_view/centered_view.dart';
 import 'package:hello_web/widgets/navigation_bar/navigation_bar.dart';
+import 'package:hello_web/widgets/top_bar/top_bar.dart';
 
 class HomeView extends StatelessWidget {
   @override
@@ -7,7 +9,14 @@ class HomeView extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(
-        children: [NavigationBar()],
+        children: [
+          TopBar(),
+          CenteredView(
+            child: Column(
+              children: [NavigationBar()],
+            ),
+          ),
+        ],
       ),
     );
   }
