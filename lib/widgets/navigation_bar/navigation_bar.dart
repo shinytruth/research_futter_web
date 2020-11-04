@@ -7,7 +7,7 @@ class NavigationBar extends StatelessWidget {
       height: 100,
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
-        child: Row(
+        child: Column(
           children: [
             SizedBox(
               height: 80,
